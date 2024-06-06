@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { getImage } from "~/server/queries";
 
 export default async function FullPageImageView(props: { id: number }) {
